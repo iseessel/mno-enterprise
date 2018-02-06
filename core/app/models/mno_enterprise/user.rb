@@ -40,6 +40,7 @@ module MnoEnterprise
     property :sso_session, type: :string
     property :surname, type: :string
     property :website, type: :string
+    property :geo_currency, type: :string
 
     has_one :sub_tenant
 
