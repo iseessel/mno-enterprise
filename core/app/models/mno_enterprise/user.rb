@@ -27,6 +27,8 @@ module MnoEnterprise
     property :company, type: :string
     property :email, type: :string
     property :geo_country_code, type: :string
+    property :geo_state_code, type: :string
+    property :geo_city, type: :string
     property :last_sign_in_ip
     property :name, type: :string
     property :password, type: :string
@@ -42,6 +44,7 @@ module MnoEnterprise
     property :website, type: :string
     property :geo_currency, type: :string
     property :failed_attempts
+    property :password_changed_at
 
     has_one :sub_tenant
 
