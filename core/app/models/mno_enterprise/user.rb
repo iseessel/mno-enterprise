@@ -41,6 +41,7 @@ module MnoEnterprise
     property :surname, type: :string
     property :website, type: :string
     property :geo_currency, type: :string
+    property :failed_attempts
 
     has_one :sub_tenant
 
