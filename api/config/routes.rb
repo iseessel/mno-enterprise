@@ -351,6 +351,7 @@ MnoEnterprise::Engine.routes.draw do
       resources :products, only: [:index, :show]
       resources :product_instances, only: [:index, :show]
       resources :subscriptions, only: [:index, :show, :create]
+      resources :subscription_events, only: [:create]
 
       # scope ':entity' do
       #   resources '', as: :resource, controller: 'resources', only: [:index, :show, :create, :update, :destroy]
